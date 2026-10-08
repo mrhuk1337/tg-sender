@@ -1,0 +1,12 @@
+# Proxies list (one proxy per line)
+# Lines starting with # and empty lines are ignored.
+#
+# Supported formats:
+# 1. Standard format: host:port:username:password
+# 2. Scheme format: socks5://username:password@host:port
+# 3. HTTP proxy: http://username:password@host:port
+# 4. Without auth: host:port or socks5://host:port
+#
+# Example:
+# 192.168.1.100:1080:myuser:mypassword
+# socks5://user:pass@185.220.101.5:1080
